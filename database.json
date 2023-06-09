@@ -1,0 +1,187 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "johndoe@example.com"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "email": "janesmith@example.com"
+    },
+    {
+      "email": "hpassfield7@netvibes.com",
+      "fullName": "User1",
+      "isStaff": false,
+      "id": 3
+    },
+    {
+      "email": "hpassfield8@netvibes.com",
+      "fullName": "User2",
+      "isStaff": false,
+      "id": 4
+    },
+    {
+      "email": "hpassfield9@netvibes.com",
+      "fullName": "user3",
+      "isStaff": true,
+      "id": 5
+    },
+    {
+      "email": "alice@example.com",
+      "fullName": "Alice",
+      "isStaff": false,
+      "id": 6
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "name": "Alice",
+      "email": "alice@example.com",
+      "loyaltyNumber": "12345"
+    },
+    {
+      "id": 2,
+      "name": "Bob",
+      "email": "bob@example.com",
+      "loyaltyNumber": "67890"
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "name": "Emily",
+      "email": "emily@example.com",
+      "startDate": "2022-01-01",
+      "payRate": 16,
+      "storeId": 1
+    },
+    {
+      "id": 2,
+      "name": "David",
+      "email": "david@example.com",
+      "startDate": "2022-02-01",
+      "payRate": 20,
+      "storeId": 2
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "address": "128 Main St, Austin, Texas - 78701",
+      "squareFootage": 1000
+    },
+    {
+      "id": 2,
+      "address": "426 Elm St, Seattle, Washington - 98101",
+      "squareFootage": 800
+    },
+    {
+      "id": 3,
+      "address": "500 Ocean Dr, Miami, Florida - 33101",
+      "squareFootage": 1100
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Peppermint",
+      "productTypeId": 1,
+      "pricePerUnit": 0.25
+    },
+    {
+      "id": 2,
+      "name": "Bubble Gum",
+      "productTypeId": 2,
+      "pricePerUnit": 0.1
+    },
+    {
+      "id": 3,
+      "name": "Milk Chocolate Bar",
+      "productTypeId": 3,
+      "pricePerUnit": 2.05
+    },
+    {
+      "id": 4,
+      "name": "Cola Soda",
+      "productTypeId": 4,
+      "pricePerUnit": 0.99
+    },
+    {
+      "id": 5,
+      "name": "Butterscotch",
+      "productTypeId": 1,
+      "pricePerUnit": 0.3
+    },
+    {
+      "id": 6,
+      "name": "Fruit Gum",
+      "productTypeId": 2,
+      "pricePerUnit": 0.15
+    },
+    {
+      "id": 7,
+      "name": "Dark Chocolate Bar",
+      "productTypeId": 3,
+      "pricePerUnit": 2.25
+    },
+    {
+      "id": 8,
+      "name": "Lemon-Lime Soda",
+      "productTypeId": 4,
+      "pricePerUnit": 0.99
+    },
+    {
+      "name": "Root Beer",
+      "productTypeId": 4,
+      "pricePerUnit": 2.05,
+      "id": 9
+    },
+    {
+      "name": "Fireball",
+      "productTypeId": 1,
+      "pricePerUnit": 0.25,
+      "id": 10
+    },
+    {
+      "name": "Chocolate Milk",
+      "productTypeId": 4,
+      "pricePerUnit": 2.19,
+      "id": 11
+    }
+  ],
+  "productTypes": [
+    {
+      "id": 1,
+      "name": "Hard Candy"
+    },
+    {
+      "id": 2,
+      "name": "Gum"
+    },
+    {
+      "id": 3,
+      "name": "Chocolate"
+    },
+    {
+      "id": 4,
+      "name": "Drink"
+    }
+  ],
+  "purchases": [
+    {
+      "id": 1,
+      "customerId": 1,
+      "productId": 1,
+      "quantity": 5
+    },
+    {
+      "id": 2,
+      "customerId": 2,
+      "productId": 2,
+      "quantity": 3
+    }
+  ]
+}
